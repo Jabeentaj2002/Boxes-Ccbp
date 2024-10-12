@@ -1,0 +1,42 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.box {
+  font-family: 'Bree Serif';
+  margin: 10px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-box {
+  height: 100px;
+  width: 100px;
+  background-color: #fbbf24;
+}
+
+.medium-box {
+  height: 200px;
+  width: 200px;
+  background-color: #38bdf8;
+}
+
+.large-box {
+  height: 300px;
+  width: 300px;
+  background-color: #ec4899;
+}
